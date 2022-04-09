@@ -1,0 +1,12 @@
+{
+  "name": "Due Date Enlarger",
+  "description": "Makes canvas due dates more prominent",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://canvas.newcastle.edu.au/*"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
